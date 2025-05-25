@@ -23,13 +23,13 @@ def print_configuration(total_machines, total_challenges, denominator):
     print(f"{HEADER_COLOR}------------------------------------{RESET}\n")
 
 def print_current_status(sys_owns, user_owns, chall_owns, percentage, rank_name):
-    print(f"\n{HEADER_COLOR}------------ 現在の状況 ------------{RESET}")
+    print(f"\n{HEADER_COLOR}------------- 現在の状況 ------------{RESET}")
     print(f"現在のシステム所有数   : {INFO_COLOR}{sys_owns}{RESET}")
     print(f"現在のユーザー所有数   : {INFO_COLOR}{user_owns}{RESET}")
     print(f"現在のチャレンジ所有数 : {INFO_COLOR}{chall_owns}{RESET}")
     print(f"現在の所有率           : {INFO_COLOR}{percentage:.2f}%{RESET}")
     print(f"現在のランク (計算結果): {RANK_COLOR}{rank_name}{RESET}")
-    print(f"{HEADER_COLOR}------------------------------------{RESET}\n")
+    print(f"{HEADER_COLOR}-------------------------------------{RESET}\n")
 
 def print_target_rank_info(next_rank_name, target_percentage_for_next_rank):
     target_display = f"{target_percentage_for_next_rank}%"
