@@ -19,8 +19,8 @@ Hack The Box (HTB) の現在の所有状況から、次のランクに到達す�
  **リポジトリをクローンまたはダウンロードします。**
 
 ```bash
-git clone https://github.com/namahano/HTB-Rank-Checker.git
-cd HTB-Rank-Checker
+git clone https://github.com/namahano/HTB-Rank-Calculator.git
+cd HTB-Rank-Calculator
 pip install -r requirements.txt
 ```
 
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 1.  以下のコマンドを実行してスクリプトを起動します。
     ```bash
-    python3 htb-rank-checker.py
+    python3 htb-rank-calculator.py
     ```
 
 2.  プロンプトが表示されるので、指示に従って現在の所有数を入力します。
