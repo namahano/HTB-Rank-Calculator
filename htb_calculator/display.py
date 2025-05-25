@@ -56,7 +56,7 @@ def print_combinations_table(combinations, next_rank_name, target_percentage_for
     else:
         target_display_full = f"{INFO_COLOR}>{target_display}{HEADER_COLOR}"
 
-    print(f"\n{HEADER_COLOR}     --- {RANK_COLOR}{next_rank_name}{HEADER_COLOR} ({target_display_full}{HEADER_COLOR}) 達成のための組み合わせ例 ---{RESET}")
+    print(f"\n{HEADER_COLOR}--- {RANK_COLOR}{next_rank_name}{HEADER_COLOR} ({target_display_full}{HEADER_COLOR}) 達成のための組み合わせ例 ---{RESET}")
     print(f"{BAR_COLOR_TABLE}{Colors.BOLD}|-----------------------------------------------------------------|{RESET}")
     print(f"{BAR_COLOR_TABLE}{Colors.BOLD}| 追加システム | 追加ユーザー | 追加チャレンジ | 結果の所有率 (%) |{RESET}")
     print(f"{BAR_COLOR_TABLE}{Colors.BOLD}|--------------|--------------|----------------|------------------|{RESET}")
